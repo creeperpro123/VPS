@@ -94,8 +94,8 @@ check_dependencies() {
 
 # Function to cleanup temporary files
 cleanup() {
-    if [ -f "user-data2" ]; then rm -f "user-data"; fi
-    if [ -f "meta-data2" ]; then rm -f "meta-data"; fi
+    if [ -f "user-data3" ]; then rm -f "user-data"; fi
+    if [ -f "meta-data3" ]; then rm -f "meta-data"; fi
 }
 
 # Function to get all VM configurations
